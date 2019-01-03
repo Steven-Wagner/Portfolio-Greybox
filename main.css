@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+}
+
+li {
+    text-align: center;
+    width: 15%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    background-color: rgb(157, 159, 161);
+}
+
+.bio {
+    height: 300px;
+    background-color: rgb(128, 132, 136);
+}
+
+.portfolio {
+    background-color: rgb(157, 159, 161);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portheading {
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.contact {
+    background-color: rgb(128, 132, 136);
+}
+
